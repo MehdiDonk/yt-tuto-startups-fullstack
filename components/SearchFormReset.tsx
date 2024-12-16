@@ -1,5 +1,6 @@
 "use client";
 
+import { XIcon } from "lucide-react";
 import Link from "next/link";
 
 export const SearchFormReset = () => {
@@ -12,7 +13,7 @@ export const SearchFormReset = () => {
   return (
     <button type="reset" onClick={reset}>
       <Link href="/" className="search-btn text-white">
-        X
+        <XIcon className="size-5" />
       </Link>
     </button>
   );
